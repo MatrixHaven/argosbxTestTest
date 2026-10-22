@@ -275,7 +275,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
             "flow": "xtls-rprx-vision"
           }
         ],
-        "decryption": "none"
+        "decryption": "${dekey}"
       },
       "streamSettings": {
         "network": "xhttp",
@@ -332,7 +332,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
             "flow": "xtls-rprx-vision"
           }
         ],
-        "decryption": "none"
+        "decryption": "${dekey}"
       },
       "streamSettings": {
         "network": "xhttp",
@@ -375,7 +375,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
         "flow": ""
       }
     ],
-    "decryption": "none"
+    "decryption": "${dekey}"
   },
   "streamSettings": {
     "network": "xhttp",
@@ -430,7 +430,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
         "flow": ""
       }
     ],
-    "decryption": "none"
+    "decryption": "${dekey}"
   },
   "streamSettings": {
     "network": "xhttp",
@@ -489,7 +489,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
             "flow": "xtls-rprx-vision"
           }
         ],
-        "decryption": "none"
+        "decryption": "${dekey}"
       },
       "streamSettings": {
         "network": "ws",
@@ -530,7 +530,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
                         "flow": "xtls-rprx-vision"
                     }
                 ],
-                "decryption": "none"
+                "decryption": "${dekey}"
             },
             "streamSettings": {
                 "network": "tcp",
